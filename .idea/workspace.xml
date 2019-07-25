@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e589ba1d-9d42-4f9b-929d-bfbf7d2037c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter2/test_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/logic_regression_linearsvc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/mpl-data/matplotlibrc" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/mpl-data/matplotlibrc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +19,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter2/knn_regressor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="513">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2/linear_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2/ridge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2/lasso.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2/logic_regression_linearsvc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +90,8 @@
       <find>fontdict</find>
       <find>NanumGothic</find>
       <find>random_state</find>
+      <find>2</find>
+      <find>show</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,6 +111,11 @@
         <option value="$PROJECT_DIR$/chapter2/knn_classifier_breast_cancer.py" />
         <option value="$PROJECT_DIR$/chapter2/knn_regressor.py" />
         <option value="$PROJECT_DIR$/chapter2/knn_classifier.py" />
+        <option value="$PROJECT_DIR$/chapter2/linear_regression.py" />
+        <option value="$PROJECT_DIR$/chapter2/linear_regression_boston.py" />
+        <option value="$PROJECT_DIR$/chapter2/ridge.py" />
+        <option value="$PROJECT_DIR$/chapter2/lasso.py" />
+        <option value="$PROJECT_DIR$/chapter2/logic_regression_linearsvc.py" />
       </list>
     </option>
   </component>
@@ -130,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knn_regressor">
+  <component name="RunManager" selected="Python.logic_regression_linearsvc">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MLWP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,45 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iris_scatter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLWP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/iris_scatter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kneighborsclassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLWP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/kneighborsclassifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="knn_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lasso" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLWP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +217,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/knn_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/lasso.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="knn_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLWP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,7 +236,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/knn_regressor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linear_regression_boston" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLWP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +255,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/test_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/linear_regression_boston.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logic_regression_linearsvc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLWP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/logic_regression_linearsvc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLWP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/ridge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.knn_regressor" />
-        <item itemvalue="Python.knn_classifier" />
-        <item itemvalue="Python.test_dataset" />
-        <item itemvalue="Python.iris_scatter" />
-        <item itemvalue="Python.kneighborsclassifier" />
+        <item itemvalue="Python.logic_regression_linearsvc" />
+        <item itemvalue="Python.lasso" />
+        <item itemvalue="Python.ridge" />
+        <item itemvalue="Python.linear_regression_boston" />
+        <item itemvalue="Python.linear_regression" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +323,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563775370830</updated>
       <workItem from="1563775386706" duration="13489000" />
-      <workItem from="1563858696358" duration="10129000" />
+      <workItem from="1563858696358" duration="24654000" />
     </task>
     <task id="LOCAL-00001" summary="chapter1 마무으리">
       <created>1563847524102</created>
@@ -278,16 +332,44 @@
       <option name="project" value="LOCAL" />
       <updated>1563847524102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="knn">
+      <created>1563869538960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563869538960</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lr">
+      <created>1564020735484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564020735484</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lasso">
+      <created>1564020767133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564020767133</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ridge">
+      <created>1564020796497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564020796497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23618000" />
+    <option name="totallyTimeSpent" value="38143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988372" visible="true" weight="0.123559795" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988372" visible="true" weight="0.123559795" />
       <window_info id="Structure" order="1" sideWeight="0.50116277" side_tool="true" weight="0.1227652" />
       <window_info id="Favorites" order="2" sideWeight="0.50116277" side_tool="true" weight="0.1227652" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,11 +384,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4356976" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.47596344" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.47596344" />
       <window_info anchor="right" x="0" y="0" width="379" height="1208" id="Documentation" order="4" side_tool="true" weight="0.32971668" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -316,7 +398,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chapter1 마무으리" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter1 마무으리" />
+    <MESSAGE value="knn" />
+    <MESSAGE value="lr" />
+    <MESSAGE value="lasso" />
+    <MESSAGE value="ridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="ridge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MLWP$model1.coverage" NAME="model1 Coverage Results" MODIFIED="1563785464698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -435,8 +521,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/knn_regressor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="513">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/linear_regression_boston.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/ridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/lasso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="445" column="63" lean-forward="true" selection-start-line="445" selection-start-column="63" selection-end-line="445" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/logic_regression_linearsvc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
